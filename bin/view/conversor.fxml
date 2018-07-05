@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="136.0" prefWidth="483.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.ControleAplicacao">
+   <children>
+      <TextField fx:id="entrada" layoutX="14.0" layoutY="35.0" onKeyPressed="#clean" prefHeight="28.0" prefWidth="371.0" />
+      <Button layoutX="397.0" layoutY="17.0" mnemonicParsing="false" onAction="#converte" prefHeight="48.0" prefWidth="72.0" text="Converter" />
+      <Label layoutX="14.0" layoutY="16.0" text="Digite o Codigo de Barras ou a Linha digitável" />
+      <TextField fx:id="saida" editable="false" layoutX="14.0" layoutY="88.0" prefHeight="28.0" prefWidth="456.0" />
+   </children>
+</Pane>
